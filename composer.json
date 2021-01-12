@@ -1,0 +1,19 @@
+{
+	"name": "cmsgears/module-paystack",
+	"description": "The Paystack Module to integrate the payment solutions provided by Paystack.",
+	"homepage": "http://www.cmsgears.org",
+	"type": "package",
+	"keywords": [ "yii", "yii2", "cmsgears", "module", "paystack" ],
+	"license": "GPL-3.0-or-later",
+	"support": {
+        "resources": "http://www.cmsgears.org"
+	},
+	"autoload": {
+		"psr-4": {
+			"cmsgears\\paystack\\": ""
+		}
+	},
+    "require": {
+        "cmsgears/module-core": "*"
+    }
+}
